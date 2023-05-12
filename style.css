@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vehicle {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 44, 136);
+  background: linear-gradient(
+      354deg,
+      rgba(255, 44, 136, 0.8352591036414566) 0%,
+      rgba(250, 212, 74, 0.998) 100%
+    )
+    center/cover no-repeat;
+}
+.main {
+  width: 500px;
+}
+
+.head {
+  background-color: rgb(255, 44, 136, 0.8352591036414566);
+  padding: 0.5rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.head h2 {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.btn-apply {
+  background-color: rgb(255, 44, 136, 0.8352591036414566);
+  color: white;
+  font-weight: 500;
+}
+.btn-apply:hover {
+  background-color: rgba(248, 127, 179, 0.835);
+  color: white;
+  font-weight: 500;
+}
